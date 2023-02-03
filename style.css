@@ -1,0 +1,73 @@
+body {
+	background-color: #36393f;
+	font-family: "Times New Roman";
+	text-justify:center;
+}
+
+h1{
+	color:white;
+}
+
+h2{
+	color:whitesmoke;
+}
+
+h3{
+	color:#c5c5c7;
+}
+
+.button:hover{
+	background-color:#32a852;
+	color: whitesmoke;
+}
+
+a{
+	color:#9393f5;
+	text-decoration: none;
+}
+
+a:hover {
+	
+	color: #32a852;
+}
+
+p{
+	color:#c5c5c7;
+}
+
+/* Class designs */
+
+.img-circle{
+	border-radius:75%;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-grey {
+	background-color:#4f535c;
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(255,255,255,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align:center;
+}
+
+.button {
+	background-color:#9393f5;
+	color:whitesmoke;
+	padding: 15px 20px;
+	border-radius:4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
